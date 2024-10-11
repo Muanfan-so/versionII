@@ -18,7 +18,7 @@ h4{
     // background: linear-gradient(90deg, rgba(233,104,40,1) 0%, rgba(255,255,255,1) 50%);
     // background: rgb(255,255,255);
     // background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(233,104,40,1) 100%);
-    background-color: #ffffffdd;
+    background-color: #7c7c7cdd;
     height: 100vh;
 }
 
@@ -67,12 +67,12 @@ h1.display-2.text-white.mw-xs.ml-6 {
 h1.display-2.text-white.mw-xs.ml-6::before{
     content: '';
     display: inline-block;
-    width: 250px;
-    background: url("https://raw.githubusercontent.com/Muanfan-so/versionII/main/itechlogo-white.png") no-repeat center center;
+    width: 260px;
+    background: url("https://raw.githubusercontent.com/Muanfan-so/version/main/itechlogo-white.png") no-repeat center center;
     background-size: cover;
     margin-right: 10px;
     vertical-align: middle;
-    height: 40px;
+    height: 80px;
 }
 .text-accent-a {
     margin: 10px auto;
@@ -84,10 +84,10 @@ h1.display-2.text-white.mw-xs.ml-6::before{
     // text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
 }
 
-.text-accent-a::before{
-    content: "ICTMOOC-DEV";
-    font-size: 90px;
-}
+// .text-accent-a::before{
+//     content: "ICTMOOC-DEV";
+//     font-size: 90px;
+// }
 
 // login page customization
 // .content {
@@ -146,10 +146,10 @@ h1.display-2.text-white.mw-xs.ml-6::before{
     visibility: hidden;
 }
 
-// .mw-xs.mt-3 .mt-4.mb-3.h4::before{
-//     content: "Sign in with:";
-//     visibility: visible;
-// }
+.mw-xs.mt-3 .mt-4.mb-3.h4::before{
+    content: "Sign in with:";
+    visibility: visible;
+}
 
 // label[for="emailOrUsername"]{
 //     display: none !important;
