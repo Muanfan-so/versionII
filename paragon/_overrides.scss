@@ -18,7 +18,7 @@ h4{
     // background: linear-gradient(90deg, rgba(233,104,40,1) 0%, rgba(255,255,255,1) 50%);
     // background: rgb(255,255,255);
     // background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(233,104,40,1) 100%);
-    background-color: #7c7c7cdd;
+    background-color: #acaaaae1;
     height: 100vh;
 }
 
@@ -84,10 +84,10 @@ h1.display-2.text-white.mw-xs.ml-6::before{
     // text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
 }
 
-// .text-accent-a::before{
-//     content: "ICTMOOC-DEV";
-//     font-size: 90px;
-// }
+.text-accent-a::before{
+    content: "ICTMOOC-DEV";
+    font-size: 90px;
+}
 
 // login page customization
 // .content {
@@ -151,20 +151,21 @@ h1.display-2.text-white.mw-xs.ml-6::before{
     visibility: visible;
 }
 
-// label[for="emailOrUsername"]{
-//     display: none !important;
-//     // font-size: 0;
-// }
+label[for="emailOrUsername"]{
+    display: none !important;
+    // font-size: 0;
+}
 
 // label[for="password"]{
 //     display: none !important;
 //     // font-size: 0;
 // }
 
-// label[for="emailOrUsername"]::after {
-//     content: "NT_Account";
-//     font-size: 12px;
-// }
+label[for="emailOrUsername"]::after {
+    display: none !important;
+    // content: "NT_Account";
+    // font-size: 12px;
+}
 
 // label[for="password"]::after {
 //     content: "Hired Date MMDDYYYY";  /* New label text */
